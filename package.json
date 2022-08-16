@@ -1,0 +1,41 @@
+{
+  "name": "aman-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "keywords": ["vue", "cli", "nuxt3", "vue 脚手架", "ts-cli", "脚手架"],
+  "author": "aman",
+  "files": ["package.json", "README.md", "lib"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liyongning/ts-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "clear-console": "^1.1.0",
+    "download-git-repo": "^3.0.2",
+    "shelljs": "^0.8.5"
+  },
+  "bin": {
+    "aman-cli": "./lib/index.js"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^9.0.1",
+    "@types/node": "^18.7.5",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "dyi-tool": "1.0.0-beta.4",
+    "esbuild": "^0.15.3",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "inquirer": "^8.1.5",
+    "ora": "^5.4.1",
+    "typescript": "^4.7.4",
+    "util": "^0.12.4"
+  }
+}
