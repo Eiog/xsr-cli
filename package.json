@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
-  "keywords": ["vue", "cli", "nuxt3", "vue 脚手架", "ts-cli", "脚手架"],
+  "keywords": [
+    "vue",
+    "cli",
+    "nuxt3",
+    "vue 脚手架",
+    "ts-cli",
+    "脚手架"
+  ],
   "author": "aman",
-  "files": ["package.json", "README.md", "lib"],
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/a-mans/aman-cli.git"

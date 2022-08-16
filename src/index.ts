@@ -15,7 +15,7 @@ program
     })
 
 // 配置版本号信息
-program.version(require(`../../package.json`).version).usage('<command> [option]')
+program.version(require(`../package.json`).version).usage('<command> [option]')
 
 // 配置帮助信息
 program.on('--help', () => {
