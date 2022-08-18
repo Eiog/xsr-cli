@@ -1,5 +1,4 @@
 import chalk from 'chalk'
-import { copyDir } from 'dyi-tool'
 import { existsSync, remove } from 'fs-extra'
 import { prompt } from 'inquirer'
 import download from 'download-git-repo'
