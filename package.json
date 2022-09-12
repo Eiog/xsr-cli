@@ -24,7 +24,7 @@
   "scripts": {
     "build": "node build.js",
     "version:patch": "npm version patch",
-    "publish": "npm publish"
+    "publish": "npm run build && npm publish"
   },
   "license": "MIT",
   "dependencies": {
