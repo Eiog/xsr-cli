@@ -1,7 +1,7 @@
 {
-  "name": "aman-cli",
-  "version": "1.0.2",
-  "description": "",
+  "name": "antrioe",
+  "version": "1.0.0",
+  "description": "自用初始项目模板",
   "main": "./lib/index.js",
   "keywords": [
     "vue",
@@ -11,7 +11,7 @@
     "ts-cli",
     "脚手架"
   ],
-  "author": "aman",
+  "author": "antrioe",
   "files": [
     "package.json",
     "README.md",
@@ -22,8 +22,9 @@
     "url": "https://github.com/a-mans/aman-cli.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "node build.js",
+    "version:plus": "",
+    "publish": ""
   },
   "license": "MIT",
   "dependencies": {
@@ -37,7 +38,7 @@
     "shelljs": "^0.8.5"
   },
   "bin": {
-    "aman-cli": "./lib/index.js"
+    "antrioe": "./lib/index.js"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
