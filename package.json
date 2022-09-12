@@ -23,8 +23,8 @@
   },
   "scripts": {
     "build": "node build.js",
-    "version:plus": "",
-    "publish": ""
+    "version:patch": "npm version patch",
+    "publish": "npm publish"
   },
   "license": "MIT",
   "dependencies": {
