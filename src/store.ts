@@ -1,30 +1,30 @@
 export const storeList = [
   {
     name: "vue3",
-    value: "github:antrioe/template-vue3",
+    value: "github:xsrole/template-vue3",
   },
   {
     name: "vue3-uni",
-    value: "github:antrioe/template-uni",
+    value: "github:xsrole/template-uni",
   },
   {
     name: "vue3-admin",
-    value: "github:antrioe/template-admin",
+    value: "github:xsrole/template-admin",
   },
   {
     name: "nuxt3",
-    value: "github:antrioe/template-nuxt3",
+    value: "github:xsrole/template-nuxt3",
   },
   {
     name: "electron",
-    value: "github:antrioe/template-electron",
+    value: "github:xsrole/template-electron",
   },
   {
     name: "multi-entry",
-    value: "github:antrioe/template-multi-entry",
+    value: "github:xsrole/template-multi-entry",
   },
   {
     name: "express",
-    value: "github:template-express",
+    value: "github:xsrole/template-express",
   },
 ];
