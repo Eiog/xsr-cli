@@ -4,6 +4,7 @@ import { prompt } from "inquirer";
 import download from "download-git-repo";
 import ora from "ora";
 import path from "path";
+import { storeList } from "./store";
 const Create = async (name: string, options: any) => {
   // 1.获取当前位置（当前输入命令行的位置）
   const cwd = process.cwd();
@@ -15,15 +16,7 @@ const Create = async (name: string, options: any) => {
   const { projectName } = await prompt({
     name: "projectName",
     type: "list",
-    choices: [
-      { name: "vue3", value: "github:antrioe/template-vue3" },
-      { name: "vue3-uni", value: "github:antrioe/template-uni" },
-      { name: "vue3-admin", value: "github:antrioe/template-admin" },
-      { name: "nuxt3", value: "github:antrioe/template-nuxt3" },
-      { name: "electron", value: "github:antrioe/template-electron" },
-      { name: "multi-entry", value: "github:antrioe/template-multi-entry" },
-      { name: "express", value: "github:template-express" },
-    ],
+    choices: storeList,
     message: "请选择一个项目模版进行创建~😉",
   });
 
