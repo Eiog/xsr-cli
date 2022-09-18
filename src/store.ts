@@ -12,6 +12,10 @@ export const storeList = [
     value: "github:xsrole/template-admin",
   },
   {
+    name: "vue3-admin-simple",
+    value: "github:xsrole/template-admin-simple",
+  },
+  {
     name: "nuxt3",
     value: "github:xsrole/template-nuxt3",
   },
