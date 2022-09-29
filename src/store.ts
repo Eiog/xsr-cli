@@ -4,6 +4,10 @@ export const storeList = [
     value: "github:xsrole/template-vue3",
   },
   {
+    name: "vite-ts",
+    value: "github:xsrole/template-ts",
+  },
+  {
     name: "vue3-uni",
     value: "github:xsrole/template-uni",
   },
