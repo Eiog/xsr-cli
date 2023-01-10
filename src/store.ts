@@ -31,4 +31,8 @@ export const storeList = [
     name: "express-starter",
     value: "github:xsrole/express-starter",
   },
+  {
+    name: "vite-lib-starter",
+    value: "github:xsrole/vite-lib-starter",
+  },
 ];
