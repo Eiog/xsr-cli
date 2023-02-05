@@ -1,6 +1,6 @@
 {
   "name": "xsr-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "自用初始项目模板集合",
   "main": "./lib/index.js",
   "keywords": [
