@@ -16,6 +16,10 @@ export const storeList = [
     value: "github:xsrole/uniApp-starter",
   },
   {
+    name: "taro-nutui-starter",
+    value: "github:xsrole/taro-nutui-starter",
+  },
+  {
     name: "tauri-starter",
     value: "github:xsrole/tauri-starter",
   },
@@ -24,12 +28,24 @@ export const storeList = [
     value: "github:xsrole/electron-starter",
   },
   {
+    name: "electron-vite-starter",
+    value: "github:xsrole/electron-vite-starter",
+  },
+  {
     name: "admin-simple-starter",
     value: "github:xsrole/admin-simple-starter",
   },
   {
     name: "express-starter",
     value: "github:xsrole/express-starter",
+  },
+  {
+    name: "ts-node-starter",
+    value: "github:xsrole/ts-node-starter",
+  },
+  {
+    name: "h3-starter",
+    value: "github:xsrole/h3-starter",
   },
   {
     name: "vite-lib-starter",
