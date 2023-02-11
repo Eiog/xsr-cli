@@ -51,4 +51,12 @@ export const storeList = [
     name: "vite-lib-starter",
     value: "github:xsrole/vite-lib-starter",
   },
+  {
+    name: "lib-starter",
+    value: "github:xsrole/lib-starter",
+  },
+  {
+    name: "vitepress-starter",
+    value: "github:xsrole/vitepress-starter",
+  },
 ];
